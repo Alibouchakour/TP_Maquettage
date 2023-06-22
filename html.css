@@ -1,0 +1,13 @@
+
+body {
+    display: flex;
+}
+.colonne1 {
+    width: 25%;
+    
+}
+
+.colonne2 {
+    width: 75%;
+    display: flex;
+}
