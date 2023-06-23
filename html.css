@@ -1,13 +1,73 @@
-
+html {
+    height: 100%;
+    margin: 0;
+}
 body {
     display: flex;
+    height: 100%;
+    margin: 0;
 }
 .colonne1 {
     width: 25%;
+    background-color: rgb(132, 129, 129);
+    height: 100%;
+    flex-direction: column;
+    display: flex;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: fixed;
     
 }
 
+.sousection {
+    padding: 20px;
+}
+
+h1 {
+    color: rgb(253, 253, 253);
+    width: 25%;
+}
 .colonne2 {
     width: 75%;
-    display: flex;
+    display: flex; flex-direction: column;
+    
+    margin-left: 25%;
+
+}
+
+.menu-link {
+
+    margin-bottom: 15px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    color: rgb(242, 246, 239); 
+}
+
+.h2 {
+    color: black;
+    font-size: 45px;
+}
+
+table,tr,td,th
+{border: 1px solid;
+border-collapse: collapse;
+
+}
+
+.th {
+    background-color: grey;
+    width: 50px;
+}
+
+.p{
+    border: 1px solid black;
+    overflow: scroll;
+    
+}
+
+.p1{
+    border: 5px solid;
+    font-size: larger;
+    
 }
